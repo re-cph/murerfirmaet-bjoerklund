@@ -57,10 +57,11 @@
     });
 
     var teamSliderAfter = function() {
-      $(".team-slider .owl-page").eq(0).html("Traditionelt malerarbejde");
-      $(".team-slider .owl-page").eq(1).html("Sprøjtelakering");
-      $(".team-slider .owl-page").eq(2).html("Service- og rammeaftaler");
-      $(".team-slider .owl-page").eq(3).html("Hovedentrepriser");
+      $(".team-slider .owl-page").eq(0).html("Traditionelt murerarbejde");
+      $(".team-slider .owl-page").eq(1).html("Renoveringsopgaver");
+      $(".team-slider .owl-page").eq(2).html("Facadeisolering");
+      $(".team-slider .owl-page").eq(3).html("Opsætning af porebeton");
+      $(".team-slider .owl-page").eq(4).html("Hoved- og fagentrepriser");
     };
 
     //slider team setting
