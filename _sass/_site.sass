@@ -1,0 +1,141 @@
+// Save index.html to build SASS
+
+$brown: rgb(127, 89, 29)
+
+body,
+.sub-title
+  font-size: 15px
+
+#status img
+  width: 200px
+
+.logo
+  margin-top: 20px
+
+.slider-mask
+  background-color: transparent
+  // background-color: rgba(20, 20, 20, 0.4)
+
+.caption-box
+  h3, p
+    background-color: rgba(20, 20, 20, 0.3)
+  h3
+    margin: 0
+    padding: 20px
+    text-transform: none
+    font-size: 50px
+    font-weight: 200
+    letter-spacing: 0.04em
+
+  p
+    margin: 0
+    padding: 0 20px 20px 20px
+
+#works-detail li
+  margin-bottom: 8px
+
+#contact
+  p, a
+    color: #000
+  .phone
+    font-size: 20px
+    line-height: 25px
+    font-weight: 300
+
+  img
+    width: 125px
+    border-radius: 50%
+    margin: 10px auto
+  .contact
+    margin-bottom: 50px
+
+.liner
+  background-color: $brown
+
+@include media-max($screen-lg-min)
+  //Green
+  .caption-box
+    h3
+      height: 140px
+    p
+      height: 140px
+@include media-max($screen-md-min)
+  //Yellow
+  .caption-box
+    h3
+      height: 140px
+    p
+      height: 140px
+@include media-max($screen-sm-min)
+  //Orange
+  .caption-box
+    h3
+      height: 115px
+      font-size: 25px
+      margin-top: 20px
+    p
+      margin-bottom: 20px
+      height: 200px
+
+.bg1 .para-img
+  background-image: url("../images/bg/vintage.jpg")
+
+.bg2 .para-img
+  background-image: url("../images/bg/sprojtepistol.jpg")
+
+span.break-mobile-only
+  display: block
+  height: 14px
+
+@include media-min($screen-md-min)
+  span.break-mobile-only
+    display: none
+
+@include media-max($screen-sm-min)
+  .caption-box
+    h3
+      font-size: 25px
+      margin-top: 20px
+    p
+      margin-bottom: 20px
+
+  .port-item
+    // width: 100%
+    .port-ajax
+      max-width: 360px
+      margin-left: auto
+      margin-right: auto
+
+#resDebug, #roof
+  position: fixed
+  left: 0
+  right: 0
+  height: 5px
+  z-index: 1000
+
+#roof
+  background: $brown
+
+#resDebug
+  background: red
+  @include media-max($screen-lg-min)
+    background: green
+  @include media-max($screen-md-min)
+    background: yellow
+  @include media-max($screen-sm-min)
+    background: orange
+
+#services-list
+  .owl-item
+    margin-top: 50px
+
+  .owl-controls
+    position: absolute
+    top: 100px
+    width: 100%
+
+@include media-max($screen-md-min)
+  #services-list .owl-controls
+    font-size: 12px
+    .owl-page
+      padding: 4px 8px
