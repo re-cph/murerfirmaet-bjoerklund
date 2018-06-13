@@ -1,17 +1,17 @@
 #NOTE: Reload local server when changing stuff here!
 
 # Site settings
-company_name: "Malerfirmaet Eskildsen A/S"
-title: "Malerfirmaet Eskildsen A/S"
-email: "npe@malereskildsen.dk"
-phone: "+45 4498 9685"
+company_name: "Murerfirmaet Bjørklund & Eskildsen"
+title: "Murerfirmaet Bjørklund & Eskildsen"
+email: "jacob@jacobmurer.dk"
+phone: "+45 2946 2067"
 address_line1: "Lerhøj 20"
 address_line2: "2880 Bagsværd"
-cvr: "21 79 92 03"
+cvr: "32 45 11 01"
 description: > # this means to ignore newlines until "baseurl:"
-  Malerentrepriser siden 1936
+  Murerentrepriser siden 1964
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.malereskildsen.dk" # the base hostname & protocol for your site
+url: "http://jacobmurer.dk" # the base hostname & protocol for your site
 twitter_username: #recph
 github_username:  #re-cph
 
