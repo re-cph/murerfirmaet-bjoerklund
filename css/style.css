@@ -149,7 +149,7 @@ ul, ol {
 	z-index: 999999; /* makes sure it stays on top */
 }
 #status {
-	width: 200px;
+	width: 400px;
 	height: 200px;
 	position: absolute;
 	left: 50%; /* centers the loading animation horizontally one the screen */
@@ -158,7 +158,7 @@ ul, ol {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	text-align:center;
-	margin: -100px 0 0 -100px; /* is width and height divided by two */
+	margin: -100px 0 0 -200px; /* is width and height divided by two */
 }
 #status p {
 	text-align: center;
