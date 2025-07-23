@@ -11,7 +11,7 @@ cvr: "32 45 11 01"
 description: > # this means to ignore newlines until "baseurl:"
   Murerentrepriser siden 1964
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jacobmurer.dk" # the base hostname & protocol for your site
+url: "https://www.murer-mbe.dk" # the base hostname & protocol for your site
 twitter_username: #recph
 github_username:  #re-cph
 
